@@ -1,5 +1,4 @@
-# welcome to the home page exotikos' github page
-- ## nothing much to say here
+# nothing much for me to tell you that you came here
 
 > [!WARNING]
 > no femboys allowed
