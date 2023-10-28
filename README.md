@@ -1,1 +1,1 @@
-# exotikos.github.io
+# welcome to exotikos' website
