@@ -1,3 +1,21 @@
+@keyframes coolFromDown {
+    from {
+        transform: translateY(450%)
+    }
+    to {
+        transform: translateY(0%)
+    }
+}
+@keyframes coolFromUp {
+    from {
+        transform: translateY(-450%)
+    }
+    to {
+        transform: translateY(0%)
+    }
+}
+
+
 html {
     font-family: cursive;
     margin: 0;
@@ -12,12 +30,8 @@ body {
     padding: 0;
     background:            linear-gradient(to left top, rgb(0, 45, 0), black);
     background-attachment: fixed;
-    backdrop-filter: blur(5px)
 }
-p {
-    color: green;
-}
-button {
+button, p {
     color: green;
     font-size: 30px;
     margin: 0px;
@@ -37,28 +51,31 @@ h2.h2one {
     color:green;
     font-size: 40px;
     margin: 0px;
+    animation: coolFromUp 1s;
 }
 .one {
     position: absolute;
+    animation: coolFromDown 1s;
     left: 43%;
     top: 400px;
 }
 .two {
     position: absolute;
     left: 13%;
+    animation: coolFromDown 1s;
     top: 400px;
 }
 .three {
     position: absolute;
+    animation: coolFromDown 1s;
     right: 13%;
     top: 400px;
 }
 h1 {
     color: black;
-    animation-name: slidefromleft;
-    animation-duration: 1s;
     text-align: center;
     background: green;
+    animation: coolFromUp 1s;
     font-size: 80px;
     margin: 0
 }
