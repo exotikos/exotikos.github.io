@@ -1,14 +1,61 @@
+html {
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+}
+::-webkit-scrollbar {
+    width: 0mm;
+  }
 body {
-  color: green;
-  background-color: black;
-  font-family: cursive;
-  text-align: center;
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    background:            linear-gradient(to left top, rgb(0, 45, 0), black);
+    background-attachment: fixed;
+    backdrop-filter: blur(5px)
+}
+button {
+    color: green;
+    font-size: 30px;
+    margin: 0px;
+    padding: 0px;
+    background: black;
+    border-color: green !important;
+    border-width: 3px;
+    width: 250px;
+    height: 250px;
+    transition: all 0.3s ease;
+}
+button:hover {
+    transform: scale(1.1);
   }
-li {
-  list-style-type: none;
-  }
+h2.h2one {
+    text-align: center;
+    color:green;
+    font-size: 40px;
+    margin: 0px;
+}
+.one {
+    position: absolute;
+    left: 43%;
+    top: 400px;
+}
+.two {
+    position: absolute;
+    left: 13%;
+    top: 400px;
+}
+.three {
+    position: absolute;
+    right: 13%;
+    top: 400px;
+}
 h1 {
-  font-size: 50px;
-  background-color: green;
-  color: black;
-  }
+    color: black;
+    animation-name: slidefromleft;
+    animation-duration: 1s;
+    text-align: center;
+    background: green;
+    font-size: 80px;
+    margin: 0
+}
