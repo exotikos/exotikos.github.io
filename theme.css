@@ -13,9 +13,12 @@
     to {
         transform: translateY(0%)
     }
+    
 }
-
-
+.container {
+    display: flex;
+    flex-direction: column;
+}
 html {
     font-family: cursive;
     margin: 0;
@@ -55,22 +58,38 @@ h2.h2one {
 }
 .one {
     position: absolute;
+    display: flex;
     animation: coolFromDown 2s;
-    left: 43%;
+    align-items: center;
     top: 400px;
+    position: fixed;
+    float: none;
 }
 .two {
     position: absolute;
-    left: 13%;
+    left: 50px;
     animation: coolFromDown 2s;
     top: 400px;
+    float: left;
 }
 .three {
     position: absolute;
     animation: coolFromDown 2s;
-    right: 13%;
+    right: 50px;
     top: 400px;
+    float: right;
 }
+@media (max-width: 1100px) {
+    .one {
+    top: 300px;
+    }
+    .two {
+    top: 550px;
+    }
+    .three {
+        top: 800px
+    }
+  }
 h1 {
     color: black;
     text-align: center;
