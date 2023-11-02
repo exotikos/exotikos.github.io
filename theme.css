@@ -51,23 +51,23 @@ h2.h2one {
     color:green;
     font-size: 40px;
     margin: 0px;
-    animation: coolFromUp 1s;
+    animation: coolFromUp 2s;
 }
 .one {
     position: absolute;
-    animation: coolFromDown 1s;
+    animation: coolFromDown 2s;
     left: 43%;
     top: 400px;
 }
 .two {
     position: absolute;
     left: 13%;
-    animation: coolFromDown 1s;
+    animation: coolFromDown 2s;
     top: 400px;
 }
 .three {
     position: absolute;
-    animation: coolFromDown 1s;
+    animation: coolFromDown 2s;
     right: 13%;
     top: 400px;
 }
@@ -75,7 +75,7 @@ h1 {
     color: black;
     text-align: center;
     background: green;
-    animation: coolFromUp 1s;
+    animation: coolFromUp 2s;
     font-size: 80px;
     margin: 0
 }
