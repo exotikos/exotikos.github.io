@@ -62,7 +62,6 @@ h2.h2one {
     animation: coolFromDown 2s;
     align-items: center;
     top: 400px;
-    position: fixed;
     float: none;
 }
 .two {
