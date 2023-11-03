@@ -19,7 +19,7 @@ function redirectMath() {
     const halfScreenWidth = screenWidth / 2.2;
     element.style.left = halfScreenWidth + "px";
     element.style.transform = `translateX(${halfScreenWidth})`;
-    } else if (screenWidth <= 1100) {
+    } else if (screenWidth <= 950) {
       const element = document.getElementById("gists");
       element.left = 0 + "px";
       }
