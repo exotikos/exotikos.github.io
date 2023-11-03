@@ -62,6 +62,7 @@ h2.h2one {
     animation: coolFromDown 2s;
     align-items: center;
     top: 400px;
+    left: 47%;
     float: none;
 }
 .two {
@@ -78,7 +79,7 @@ h2.h2one {
     top: 400px;
     float: right;
 }
-@media (max-width: 1100px) {
+@media (max-width: 950px) {
     .one {
     top: 300px;
     }
