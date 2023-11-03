@@ -58,7 +58,6 @@ h2.h2one {
 }
 .one {
     position: absolute;
-    display: flex;
     animation: coolFromDown 2s;
     align-items: center;
     top: 400px;
