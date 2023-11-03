@@ -25,8 +25,29 @@ html {
     padding: 0;
 }
 ::-webkit-scrollbar {
-    width: 0mm;
-  }
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: black;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: green;
+}
+
+/* For Firefox */
+::-moz-scrollbar {
+  width: 10px;
+}
+
+::-moz-scrollbar-track {
+  background-color: black;
+}
+
+::-moz-scrollbar-thumb {
+  background-color: green;
+}
 body {
     overflow-x: hidden;
     margin: 0;
