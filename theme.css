@@ -1,0 +1,120 @@
+@keyframes coolFromDown {
+    from {
+        transform: translateY(450%)
+    }
+    to {
+        transform: translateY(0%)
+    }
+}
+@keyframes coolFromUp {
+    from {
+        transform: translateY(-450%)
+    }
+    to {
+        transform: translateY(0%)
+    }
+    
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+html {
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+}
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: black;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: green;
+}
+
+/* For Firefox */
+::-moz-scrollbar {
+  width: 10px;
+}
+
+::-moz-scrollbar-track {
+  background-color: black;
+}
+
+::-moz-scrollbar-thumb {
+  background-color: green;
+}
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    background:            linear-gradient(to left top, rgb(0, 45, 0), black);
+    background-attachment: fixed;
+}
+button, p {
+    color: green;
+    font-size: 30px;
+    margin: 0px;
+    padding: 0px;
+    background: black;
+    border-color: green !important;
+    border-width: 3px;
+    width: 250px;
+    height: 250px;
+    transition: all 0.3s ease;
+}
+button:hover {
+    transform: scale(1.1);
+  }
+h2.h2one {
+    text-align: center;
+    color:green;
+    font-size: 40px;
+    margin: 0px;
+    animation: coolFromUp 2s;
+}
+.one {
+    position: absolute;
+    animation: coolFromDown 2s;
+    align-items: center;
+    top: 400px;
+    left: 47%;
+    float: none;
+}
+.two {
+    position: absolute;
+    left: 50px;
+    animation: coolFromDown 2s;
+    top: 400px;
+    float: left;
+}
+.three {
+    position: absolute;
+    animation: coolFromDown 2s;
+    right: 50px;
+    top: 400px;
+    float: right;
+}
+@media (max-width: 950px) {
+    .one {
+    top: 300px;
+    }
+    .two {
+    top: 550px;
+    }
+    .three {
+        top: 800px
+    }
+  }
+h1 {
+    color: black;
+    text-align: center;
+    background: green;
+    animation: coolFromUp 2s;
+    font-size: 80px;
+    margin: 0
+}
