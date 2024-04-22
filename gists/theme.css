@@ -35,23 +35,10 @@ h2.h2one {
     margin: 0px;
     animation: coolFromUp 1s;
 }
-.one {
+.right {
     position: absolute;
-    animation: coolFromDown 1s;
-    left: 43%;
-    top: 400px;
-}
-.two {
-    position: absolute;
-    left: 13%;
-    animation: coolFromDown 1s;
-    top: 400px;
-}
-.three {
-    position: absolute;
-    animation: coolFromDown 1s;
-    right: 13%;
-    top: 400px;
+    right: 50px;
+    top: 100px;
 }
 h1 {
     color: black;
