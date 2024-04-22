@@ -1,5 +1,5 @@
-function redirectMath() {
-    window.location.href = "https://exotikos.github.io/math";
+function redirectWhoAmI() {
+    window.location.href = "https://exotikos.github.io/whoami";
   }
   function redirectGist() {
     window.location.href = "https://exotikos.github.io/gists";
